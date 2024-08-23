@@ -21,4 +21,13 @@ print("w" in str2) # Searches for 'w' in str2
 
 print("e" in str2) # Searches for 'e' in str2
 
+print("my string is %s"%(str+str2)) # Adding variables to string
+
+print("{} and {} are my friends".format("mahesh","manav")) # example of curly bracket formatting
+
+print("{0} and {1} are my friends".format("mahesh","manav")) # example of curly bracket formatting with positional arguments
+
+
+print("{u},{b} and {c} are the languages of IT".format(u="java",b="ml",c="python")) # example of curly bracket formatting with arguments
+
 del str # To delete the string from memory
