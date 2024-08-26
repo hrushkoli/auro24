@@ -1,0 +1,8 @@
+Fibonacci series -- done
+Prime number -- done
+Armstrong -- done
+Palindrome -- done
+
+Prime numbers between a range like 1-100 (given by user) -- done
+Palindrome numbers between a range -- done
+
