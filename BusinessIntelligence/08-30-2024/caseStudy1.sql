@@ -32,3 +32,7 @@ where
 cbf.BookCategory_id = bc.BookCategory.id,
 bc.Name = "Comic Book",
 t.year = 2006
+
+-- Sort Books based on the type of category
+
+
