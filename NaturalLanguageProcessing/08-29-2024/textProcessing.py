@@ -34,5 +34,3 @@ print("Raw Data :\n",text_data)
 print("Tokens :\n",tokenize_text(text_data))
 print("Filtered Tokens After Removing Stop Words :\n",remove_stop_words(text_data))
 print("Word Frequency: \n", count_word_frequency(text_data))
-
-
