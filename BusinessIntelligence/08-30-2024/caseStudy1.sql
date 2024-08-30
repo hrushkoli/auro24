@@ -11,8 +11,10 @@ BookCategory bc
 
 where 
 
-cbf.BookCategory_id = bc.BookCategory.id,
-bc.Name = "Comic Book",
+cbf.BookCategory_id = bc.BookCategory.id
+and
+bc.Name = "Comic Book"
+and
 t.year = 2006
 
 
@@ -29,8 +31,10 @@ BookCategory bc
 
 where 
 
-cbf.BookCategory_id = bc.BookCategory.id,
-bc.Name = "Comic Book",
+cbf.BookCategory_id = bc.BookCategory.id
+and
+bc.Name = "Comic Book"
+and
 t.year = 2006
 
 -- Sort Books based on the type of category
@@ -47,8 +51,10 @@ BookCategory bc
 
 where 
 
-cbf.BookCategory_id = bc.BookCategory.id,
+cbf.BookCategory_id = bc.BookCategory.id
+and
 cbf.BookName_id = b.id,
+
 
 order by 
 bc.name
