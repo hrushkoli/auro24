@@ -17,17 +17,3 @@ if (60<=a<70):
 if (70<=a<=100):
     print('Distinction')
 
-# if (a<0):
-#     print('Invalid input')
-# if (a in range(0,35)):
-#     print('Fail')
-# if (a in range(35,45)):
-#     print('Pass')
-# if (a in range(45,55)):
-#     print('Average')
-# if (a in range(55,60)):
-#     print('Good')
-# if (a in range(60,70)):
-#     print('Very Good')
-# if (a in range(70,101)):
-#     print('Distinction')
