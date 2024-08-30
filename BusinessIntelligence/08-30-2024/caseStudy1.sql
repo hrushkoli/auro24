@@ -35,4 +35,21 @@ t.year = 2006
 
 -- Sort Books based on the type of category
 
+select b.name,b.title,b.issue.b.price,cbf.estimated_sales,time.year
+
+
+from
+
+Comic_books cbf,
+Books b,
+Time t,
+BookCategory bc
+
+where 
+
+cbf.BookCategory_id = bc.BookCategory.id,
+cbf.BookName_id = b.id,
+
+order by 
+bc.name
 
