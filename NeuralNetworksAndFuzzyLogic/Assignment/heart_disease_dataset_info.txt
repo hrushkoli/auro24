@@ -1,0 +1,29 @@
+Age: Age of the patient (in years)
+
+Sex: Gender of the patient (1 = male, 0 = female)
+
+ChestPainType: Angina type (1 being typical, 2 being unusual, 3 being non-anginal pain, and 4 being asymptomatic)
+
+RestingBP: Resting blood pressure (in mm Hg on admission to the hospital)
+
+cholesterol: mg/dl of serum cholesterol
+
+FastingBS: > 120 mg/dl of fasting blood sugar (1 = true, 0 = false)
+
+Resting electrocardiographic: resting electrocardiogram readings (0 = normal, 1 = aberrant ST-T wave, and 2 = likely or demonstrating left ventricular hypertrophy according to Estes' criterion)
+
+MaxHR: Maximum heart rate achieved
+
+ExerciseAngina: Exercise-induced angina (1 = yes, 0 = no)
+
+Oldpeak: Exercise-induced ST depression in comparison to rest
+
+slope of the peak: The peak exercise's slope ST segment 1 is slope-up, 2 is flat, and 3 is slope-down
+
+MajorVessels: The fluorescence-colored number of main vessels (0–3)
+
+Thalassemia: Thalassemia (1 = normal; 2 = fixed; 3 = reversible)
+
+HeartDisease: Heart disease diagnosis (0 = no heart disease, 1 = heart disease present)
+
+

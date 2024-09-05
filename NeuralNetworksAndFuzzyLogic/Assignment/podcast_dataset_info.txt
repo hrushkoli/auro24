@@ -1,0 +1,43 @@
+Podcast_Name
+Type: string
+Values: Names of popular podcasts.
+
+Episode_Title
+Type: string
+Values: Titles of the episodes.
+
+Episode_Length
+Type: float (minutes)
+Values: Length of the episode in minutes. Example: 5.0, 10.0, 30.0, 45.0, 60.0, 90.0.
+
+Genre
+Type: string
+Values: "Technology", "Education", "Comedy", "Health", "True Crime", "Business", "Sports", "Lifestyle", "News", "Music".
+
+Host_Popularity
+Type: float (scale 0-100)
+Values: A score indicating the popularity of the host. Example: 50.0, 75.0, 90.0.
+
+Publication_Day
+Type: string
+Values: Day of the week the episode was published. Example: "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday".
+
+Publication_Time
+Type: string
+Values: "Morning", "Afternoon", "Evening", "Night".
+
+Guest_Popularity
+Type: float (scale 0-100)
+Values: A score indicating the popularity of the guest (if any). Example: 20.0, 50.0, 85.0.
+
+Number_of_Ads
+Type: int
+Values: Number of advertisements within the episode. Example: 0, 1, 2, 3.
+
+Episode_Sentiment
+Type: string
+Values: Sentiment of the episode's content. Example: "Positive", "Neutral", "Negative".
+
+Listening_Time
+Type: float (minutes)
+Values: The actual average listening duration (target variable).
