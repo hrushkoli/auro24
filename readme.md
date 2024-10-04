@@ -15,5 +15,8 @@
 
 ## Python
 
-- Assignment Question
+- Assignment Questions
 
+## BI 
+
+- Assignment Questions

@@ -24,7 +24,7 @@ The connection between nodes is called as a link.
 Function used for scaling or normalizing values to a particular range.
 It has two roles: 
 The first role of activation function is during the hidden layer for scaling or normalizing values and when used in the output layer, it is used to get the desirable output.
-Example: softmax function, sigmoid function
+Example: softmax function, sigmoid function, ReLu, tanh
 
 ## What is an ANN?
 
@@ -63,6 +63,10 @@ It is used to handle the speed of optimizing and finding the local minima.
 ### Epoch
 
 Epoch refers to the number of iterations.
+
+## Loss Function
+
+We use the loss function to find the accuracy of the model
 
 ## Types of ANNs
 

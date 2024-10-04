@@ -9,6 +9,10 @@ class Emp:
         print("Employee Name is ",self.ename)
         print("Employee Salary is ",self.salary)
 
+class OutputClass:
+    def __init__(self,list_of_employees):
+        self.list_of_employees = list_of_employees
+
 list_emp = []
 
 while True:
@@ -24,5 +28,7 @@ while True:
     if(choice.lower()=='no'):
         break
 
-for emp in list_emp:
+list_of_employees = list_emp
+
+for emp in list_of_employees:
     emp.empInfo()

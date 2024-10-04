@@ -1,0 +1,79 @@
+Applicant ID
+Description: A unique identifier assigned to each loan applicant.
+Data Type: String/Integer
+Units: N/A
+
+Gender
+Description: The gender of the loan applicant.
+Data Type: String
+Units: N/A (Categorical - "Male", "Female", etc.)
+
+Marital Status
+Description: The marital status of the loan applicant.
+Data Type: String
+Units: N/A (Categorical - "Married", "Single", "Divorced", etc.)
+
+Age
+Description: The age of the loan applicant.
+Data Type: Integer
+Units: Years
+
+Employment Status
+Description: The current employment status of the applicant.
+Data Type: String
+Units: N/A (Categorical - "Employed", "Self-employed", "Unemployed", etc.)
+
+Employment History (Years)
+Description: The total number of years the applicant has been employed.
+Data Type: Float/Integer
+Units: Years
+
+Annual Income
+Description: The annual income of the loan applicant.
+Data Type: Float/Integer
+Units: Currency (USD)
+
+Co-applicant Income
+Description: The annual income of any co-applicant, if applicable.
+Data Type: Float/Integer
+Units: Currency (USD)
+
+Loan Amount Requested
+Description: The amount of loan requested by the applicant.
+Data Type: Float/Integer
+Units: Currency (USD)
+
+Loan Term (Months)
+Description: The duration of the loan repayment period.
+Data Type: Integer
+Units: Months
+
+Credit History
+Description: Indicates whether the applicant has a good or bad credit history.
+Data Type: String/Integer
+Units: N/A (Categorical)
+
+Credit Score
+Description: A numerical value representing the applicant's creditworthiness.
+Data Type: Integer
+Units: Points (e.g., 300-850)
+
+Existing Loan EMI
+Description: The existing monthly EMI (Equated Monthly Installment) the applicant is currently paying on other loans.
+Data Type: Float/Integer
+Units: Currency (USD)
+
+Debt-to-Income Ratio
+Description: The ratio of the applicant's total monthly debt payments to their monthly income.
+Data Type: Float
+Units: Percentage (%)
+
+Property Area
+Description: The type of area where the property is located.
+Data Type: String
+Units: N/A (Categorical - "Urban", "Semi-Urban", "Rural")
+
+Approval Status
+Description: Indicates whether the loan application was approved or rejected.
+Data Type: String
+Units: N/A (binary - 1, 0)
