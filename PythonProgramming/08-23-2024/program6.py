@@ -9,7 +9,7 @@ print(str[1]) # To print the character at index 1
 
 print(str[:1]) # To print all characters till index 1
 
-print(str[-1]) # To print the second last index
+print(str[-1]) # To print the last index
 
 print(str[0:2]) # To Slice the String
 
