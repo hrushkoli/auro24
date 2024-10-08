@@ -28,7 +28,7 @@ def count_word_frequency(tokens):
     word_freq = Counter(tokens)
     return word_freq
 
-file_path='./paragraph.txt'
+file_path='NaturalLanguageProcessing/08-29-2024/paragraph.txt'
 text_data = read_file(file_path)
 
 print("Raw Data :\n",text_data)
