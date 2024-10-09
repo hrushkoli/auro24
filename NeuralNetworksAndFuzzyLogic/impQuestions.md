@@ -1,8 +1,6 @@
 # Important Questions - NNFL
 
 ### 1. Differentiate between ML & Deep Learning.
-Machine Learning is a broad field of AI where algorithms learn from data to make predictions or decisions without being explicitly programmed.
-
 ### 2. Explain the working of Deep Learning Model in brief.
 ### 3. Differentiate Classification & Regression with suitable example.
 ### 4. Differentiate Supervised & Unsupervised with an example.
