@@ -1,6 +1,4 @@
-myAssignments/
-ignore/*
-**/ignore/*
-**/.ipynb_checkpoints/*
-**/node_modules/
-.ipynb_checkpoints/*
+**/myAssignments/**
+**/ignore/**
+**/.ipynb_checkpoints/**
+**/node_modules/**
