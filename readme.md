@@ -1,22 +1,11 @@
-# Assignments
+# Auro24 - MscAI 2024-2026
 
-## Introduction to AI
+## Sem 1 Modules
 
-- Research Paper
-- Poster
-
-## Neural Networks
-
-- Logistic and Linear Regression
-
-## NLP 
-
-- Assignment Questions
-
-## Python
-
-- Assignment Questions
-
-## BI 
-
-- Assignment Questions
+### 1. Introduction to AI
+### 2. Python Programming
+### 3. Natural Language Processing
+### 4. Neural Networks and Fuzzy Logic 
+### 5. Business Intelligence
+### 6. Science of Living
+### 7. Physical Education
