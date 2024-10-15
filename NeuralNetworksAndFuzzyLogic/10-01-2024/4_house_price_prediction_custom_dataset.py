@@ -94,10 +94,7 @@ model.compile(optimizer='rmsprop', loss='mse', metrics=['accuracy'])
 
 # %%
 # Train the model
-history = model.fit(train_data, train_targets, 
-                    epochs=100, 
-                    batch_size=32, 
-                    validation_data=(test_data, test_targets))
+history = model.fit(train_data, train_targets, epochs=100, batch_size=32, validation_data=(test_data, test_targets))
 
 
 # %%
