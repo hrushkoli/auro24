@@ -24,10 +24,11 @@ def create_student_table(mydb,cursor):
     """
     try:
         cursor.execute(query)
+        mydb.commit()
     except mysql.connector.Error as err:
         print("ERROR Creating Table: ", err)
 
-def insert_student_dta(mydb,cursor):
+def insert_student_data(mydb,cursor):
     name = input("Enter Student Name:")
     age = input("Enter Student Age:")
     grade = input("Enter Student Grade")
@@ -74,7 +75,44 @@ def delete_student_data(mydb,cursor):
     try:
         cursor.execute(query)
         mydb.commit()
-        print("Student Data Updated Successfully")
-    except mysql.connector.Error as err:
-        print("Error Updating Data: ",err)
+        print("Student Data Deleted Successfully")
 
+    except mysql.connector.Error as err:
+        print("Error deleting Data: ",err)
+
+
+def main():
+    mydb = connect_to_db()
+    if mydb is None:
+        return
+
+    cursor = mydb.cursor()
+    
+    while True:
+        print("\n Menu: ")
+        print("1. Create Student Table: ")
+        print("2. Insert Student Data: ")
+        print("3. Read Student Data: ")
+        print("4. Update Student Data: ")
+        print("5. Delete Student Data: ")
+        print("6. Exit: ")
+    
+        choice = input("Enter your choice: ")
+        
+        if choice =="1":
+            create_student_table(mydb,cursor)
+
+        if choice =="2":
+            insert_student_data(mydb,cursor)
+    
+        if choice =="3":
+            read_student_data(mydb,cursor)
+
+        if choice =="4":
+            update_student_data(mydb,cursor)
+
+        if choice =="5":
+            delete_student_data(mydb,cursor)
+
+        if choice =="6":
+            break
