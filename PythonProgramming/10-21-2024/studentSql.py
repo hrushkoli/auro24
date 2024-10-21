@@ -25,6 +25,7 @@ def create_student_table(mydb,cursor):
     try:
         cursor.execute(query)
         mydb.commit()
+        print("Created Student Table")
     except mysql.connector.Error as err:
         print("ERROR Creating Table: ", err)
 
@@ -116,3 +117,5 @@ def main():
 
         if choice =="6":
             break
+
+main()
