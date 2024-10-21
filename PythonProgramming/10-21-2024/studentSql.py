@@ -120,8 +120,8 @@ def main():
         if choice =="6":
             break
 
-        cursor.close()
-        mydb.close()
+    cursor.close()
+    mydb.close()
 
 if __name__ == "__main__":
     main()
