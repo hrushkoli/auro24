@@ -17,6 +17,7 @@ def create_student_table(mydb,cursor):
     query= """
     CREATE TABLE IF NOT EXISTS student(
         id INT AUTO_INCREMENT PRIMARY KEY,
+        age VARCHAR(3),
         name VARCHAR(100),
         grade VARCHAR(10),
         email VARCHAR(100)
@@ -117,5 +118,8 @@ def main():
 
         if choice =="6":
             break
+
+        cursor.close()
+        mydb.close()
 
 main()
