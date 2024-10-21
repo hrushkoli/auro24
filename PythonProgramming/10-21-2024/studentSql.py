@@ -33,8 +33,8 @@ def create_student_table(mydb,cursor):
 def insert_student_data(mydb,cursor):
     name = input("Enter Student Name:")
     age = input("Enter Student Age:")
-    grade = input("Enter Student Grade")
-    email = input("Enter Student Email")
+    grade = input("Enter Student Grade: ")
+    email = input("Enter Student Email: ")
 
     query= ("INSERT INTO STUDENT (name,age,grade,email) VALUES (%s,%s,%s,%s)")
     values = (name,age,grade,email)
@@ -89,6 +89,7 @@ def main():
         return
 
     cursor = mydb.cursor()
+    print(cursor)
     
     while True:
         print("\n Menu: ")
